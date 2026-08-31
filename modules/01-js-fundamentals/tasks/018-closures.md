@@ -1,4 +1,4 @@
-# Task 011 — Closures
+# Task 018 — Closures
 
 **Concept:** a closure is a function that "remembers" the variables from where it was created,
 even after that outer function has returned — this is what makes counters, private state, and a

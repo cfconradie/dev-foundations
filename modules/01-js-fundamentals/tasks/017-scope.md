@@ -1,4 +1,4 @@
-# Task 010 — Scope
+# Task 017 — Scope
 
 **Concept:** scope is *where a variable is visible* — global, function, and block scope, plus
 `let`/`const` block-scoping vs `var`'s function-scoping — is the mental model that makes closures

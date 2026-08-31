@@ -1,4 +1,4 @@
-# Task 015 — Error handling
+# Task 022 — Error handling
 
 **Concept:** `try/catch/finally` and throwing your own `Error` objects is how you handle things
 going wrong on purpose instead of letting the program crash — critical once you touch APIs, user

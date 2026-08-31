@@ -1,4 +1,4 @@
-# Task 006 — Array methods (map/filter/reduce/find/sort)
+# Task 007 — Array methods (map/filter/reduce/find/sort)
 
 **Concept:** `.map`, `.filter`, `.reduce`, `.find`, `.sort` are the loop-based logic from task 005
 expressed declaratively — "what I want", not "how to iterate". This is the single most-used JS

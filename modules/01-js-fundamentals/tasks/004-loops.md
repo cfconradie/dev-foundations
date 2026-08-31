@@ -12,4 +12,5 @@ explain when you'd reach for `for...of` over a classic `for`.
 
 **Step 2 — AI review pass:** ask if any of your loops could cause an off-by-one error and why.
 
-**Stretch (optional):** implement the same Fibonacci sequence recursively and compare.
+**Stretch (optional):** none — task 005 picks this exact problem back up recursively and asks you
+to measure the difference for real.

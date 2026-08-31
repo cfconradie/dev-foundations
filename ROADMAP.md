@@ -12,7 +12,7 @@ practically.
 |---|--------|------|-------|--------|
 | 00 | `html-css-tailwind-basics` | Read/structure a page, use Tailwind utility classes competently — building the project's real landing page | ~6 | pre-redesign content, retrofit pending |
 | 00.5 | `project-kickoff` | Write the project spec, set up the git workflow and integration backlog | 3 | authored |
-| 01 | `js-fundamentals` | The real depth work: variables → types → functions → scope → closures → async → modules, plus prototypes/`this`/classes/event loop — implementing the project's real pricing logic | ~24 | pre-redesign content, retrofit pending |
+| 01 | `js-fundamentals` | The real depth work: variables → types → functions → scope → closures → async → modules, plus prototypes/`this`/classes/event loop — implementing the project's real pricing logic | 28 | authored |
 | 01.5 | `testing-fundamentals` | Automated testing as a first-class skill: assertions, Vitest, AAA pattern, edge cases, mocking — testing the project's real pricing logic | ~6 | pilot: 1 of 6 authored |
 | 02 | `dom-and-browser` | Make JS actually touch a page: query/manipulate DOM, events, fetch, storage — building the project's real UI | ~14 | pre-redesign content, retrofit pending |
 | 02.5 | `data-structures-and-algorithms` | Big-O reasoning, hash maps, recursion, sorting/searching — mostly applied to real project needs, with a logged generic-practice track | ~12 | pilot: 1 of 12 authored |

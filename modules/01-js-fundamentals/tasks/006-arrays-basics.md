@@ -1,4 +1,4 @@
-# Task 005 — Arrays basics
+# Task 006 — Arrays basics
 
 **Concept:** arrays are ordered, mutable, zero-indexed collections — most of your future data
 manipulation (API responses, DOM lists, DB rows) comes back as arrays of objects, so this is

@@ -23,26 +23,34 @@ the full planned course, including modules not yet authored.
 - [ ] 003-set-up-the-integration-backlog — committed: [ ] —
 
 ## Module 01 — JS fundamentals
-- [ ] 001-variables-and-types —
-- [ ] 002-operators-and-coercion —
-- [ ] 003-conditionals —
-- [ ] 004-loops —
-- [ ] 005-arrays-basics —
-- [ ] 006-array-methods —
-- [ ] 007-objects —
-- [ ] 008-functions —
-- [ ] 009-arrow-functions-and-this —
-- [ ] 010-scope —
-- [ ] 011-closures —
-- [ ] 012-higher-order-functions —
-- [ ] 013-destructuring-and-spread —
-- [ ] 014-template-literals-and-strings —
-- [ ] 015-error-handling —
-- [ ] 016-callbacks —
-- [ ] 017-promises —
-- [ ] 018-async-await —
-- [ ] 019-modules —
-- [ ] 020-mini-project-cart-calculator —
+- [ ] 001-variables-and-types — committed: [ ] —
+- [ ] 002-operators-and-coercion — committed: [ ] —
+- [ ] 003-conditionals — committed: [ ] —
+- [ ] 004-loops — committed: [ ] —
+- [ ] 005-recursion — committed: [ ] —
+- [ ] 006-arrays-basics — committed: [ ] —
+- [ ] 007-array-methods — committed: [ ] —
+- [ ] 008-objects — committed: [ ] —
+- [ ] 009-immutability-and-object-freeze — committed: [ ] —
+- [ ] 010-maps-and-sets — committed: [ ] —
+- [ ] 011-functions — committed: [ ] —
+- [ ] 012-arrow-functions-and-this — committed: [ ] —
+- [ ] 013-call-apply-bind-and-this-binding-rules — committed: [ ] —
+- [ ] 014-prototypes-and-prototypal-inheritance — committed: [ ] —
+- [ ] 015-classes — committed: [ ] —
+- [ ] 016-strict-mode — committed: [ ] —
+- [ ] 017-scope — committed: [ ] —
+- [ ] 018-closures — committed: [ ] —
+- [ ] 019-higher-order-functions — committed: [ ] —
+- [ ] 020-destructuring-and-spread — committed: [ ] —
+- [ ] 021-template-literals-and-strings — committed: [ ] —
+- [ ] 022-error-handling — committed: [ ] —
+- [ ] 023-callbacks — committed: [ ] —
+- [ ] 024-promises — committed: [ ] —
+- [ ] 025-async-await — committed: [ ] —
+- [ ] 026-the-event-loop — committed: [ ] —
+- [ ] 027-modules — committed: [ ] —
+- [ ] 028-mini-project-pricing-engine — committed: [ ] —
 
 ## Module 01.5 — Testing fundamentals (pilot — 1 of ~6 tasks authored)
 - [ ] 003-aaa-pattern-testing-pricing-logic — committed: [ ] —

@@ -1,4 +1,4 @@
-# Task 009 — Arrow functions and `this`
+# Task 012 — Arrow functions and `this`
 
 **Concept:** arrow functions don't have their own `this` — they inherit it from where they're
 defined — which is exactly why they behave differently from regular functions inside objects and

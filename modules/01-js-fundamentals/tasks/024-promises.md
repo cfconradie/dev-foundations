@@ -1,4 +1,4 @@
-# Task 017 — Promises
+# Task 024 — Promises
 
 **Concept:** a Promise represents a value that will exist eventually (pending/fulfilled/rejected)
 — it's the structured replacement for the nested callbacks from task 016, with `.then`/`.catch`

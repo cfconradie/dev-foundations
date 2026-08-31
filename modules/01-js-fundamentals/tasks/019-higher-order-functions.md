@@ -1,4 +1,4 @@
-# Task 012 — Higher-order functions
+# Task 019 — Higher-order functions
 
 **Concept:** a function that takes or returns another function — this is the pattern behind
 `.map`/`.filter` (task 006), event handlers (module 02), and middleware (module 04), so building

@@ -1,4 +1,4 @@
-# Task 008 — Functions
+# Task 011 — Functions
 
 **Concept:** function declarations, function expressions, default parameters, and rest
 parameters are the vocabulary of "reusable logic" — get comfortable with all the shapes before
