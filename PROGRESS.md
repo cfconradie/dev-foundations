@@ -2,7 +2,12 @@
 
 Tick a task when both steps (build yourself, then AI review) are done, and write one line on
 what the review pass taught you — that sentence is the actual evidence of learning, not the
-checkbox.
+checkbox. From module 00.5 onward, also tick "committed" once the task is on its own branch with
+a real commit message (see `modules/_workflow/git-workflow.md`) — that checkbox is the evidence
+for the git habit, the same way the reflection line is the evidence for the learning.
+
+Only modules/tasks that actually have written task files are listed below. See `ROADMAP.md` for
+the full planned course, including modules not yet authored.
 
 ## Module 00 — HTML/CSS/Tailwind basics
 - [ ] 001-semantic-html-skeleton —
@@ -11,6 +16,11 @@ checkbox.
 - [ ] 004-tailwind-layout-utilities —
 - [ ] 005-tailwind-responsive-and-state —
 - [ ] 006-build-a-static-page —
+
+## Module 00.5 — Project kickoff
+- [ ] 001-write-the-project-charter — committed: [ ] —
+- [ ] 002-init-the-git-workflow — committed: [ ] —
+- [ ] 003-set-up-the-integration-backlog — committed: [ ] —
 
 ## Module 01 — JS fundamentals
 - [ ] 001-variables-and-types —
@@ -34,6 +44,9 @@ checkbox.
 - [ ] 019-modules —
 - [ ] 020-mini-project-cart-calculator —
 
+## Module 01.5 — Testing fundamentals (pilot — 1 of ~6 tasks authored)
+- [ ] 003-aaa-pattern-testing-pricing-logic — committed: [ ] —
+
 ## Module 02 — DOM and browser
 - [ ] 001-selecting-elements —
 - [ ] 002-creating-and-modifying-elements —
@@ -47,6 +60,9 @@ checkbox.
 - [ ] 010-debounce-and-throttle —
 - [ ] 011-browser-devtools-debugging —
 - [ ] 012-mini-project-live-search —
+
+## Module 02.5 — Data structures and algorithms (pilot — 1 of ~12 tasks authored)
+- [ ] 003-hash-maps-discount-rule-lookup — committed: [ ] —
 
 ## Module 03 — TypeScript foundations
 - [ ] 001-tsconfig-and-first-file —
@@ -76,6 +92,12 @@ checkbox.
 - [ ] 011-rest-crud-endpoint —
 - [ ] 012-error-handling-and-status-codes —
 
+## Module 04.5 — Security fundamentals (pilot — 1 of ~11 tasks authored)
+- [ ] 001-threat-model-the-project — committed: [ ] —
+
+## Module 04.75 — Databases and SQL
+Not yet authored.
+
 ## Module 05 — Capstone (vanilla JS + Node + Tailwind)
 - [ ] Capstone shipped and deployed —
 
@@ -104,3 +126,9 @@ checkbox.
 - [ ] 009-routing-basics —
 - [ ] 010-fetching-data-in-react —
 - [ ] Capstone rebuilt in React —
+
+## Module 08 — System design and architecture
+Not yet authored.
+
+## Module 09 — Networking and delivery
+Not yet authored.
