@@ -52,6 +52,24 @@ system-design practice) that can't map onto the project directly, with a note on
 applied back or an explicit reason they won't. When helping with a task, check `PROJECT.md` for
 the current state of the app rather than assuming a task's example data is throwaway.
 
+## Every task states where it goes
+
+Not every task can build the running project directly — plenty are legitimately "concept-lab"
+tasks (language mechanics, an isolated technique) that don't produce anything the app keeps. That's
+fine, but it has to be said out loud, not implied by dressing up example data with the project's
+field names while producing nothing that persists. Every task file authored or edited from here on
+gets a **"Where this goes"** line right after the Concept: either it states the task builds the
+project directly, or it names the specific later task that will apply the concept for real (e.g.
+"this is a concept-lab task — task 008 is where this becomes the real `PricingRule` object").
+Cosmetic project-flavored examples with no stated payoff are worse than honest generic ones — they
+imply continuity they don't deliver. `INTEGRATION-BACKLOG.md` is for the bigger, module-level
+detours (a DS&A practice track, generic system-design case studies); "Where this goes" is the
+lighter, per-task version of the same honesty for modules where most tasks are concept-labs.
+
+There is also no fixed time box for a task. Size each one to what the outcome actually needs —
+don't compress a topic that needs real room (a threat model, a system-design case study) to fit a
+clock, and don't pad a genuinely short concept just to look substantial.
+
 ## Git workflow
 
 Every task from module 00.5 onward is done on its own branch with a real commit — see

@@ -7,6 +7,10 @@ mechanism that decides it. The event loop is that mechanism: one call stack, plu
 fully empties before the next macrotask runs. That one rule explains a specific kind of ordering
 surprise you're about to cause on purpose.
 
+**Where this goes:** concept-lab, and a genuinely standalone one — no single project task revisits
+this directly. Its payoff is that you can now reason about ordering bugs in task 028's async
+submission flow (and any real async bug later) from first principles instead of guessing.
+
 **Step 1 — build it yourself, no AI:** write this exact sequence and predict the console output
 order *before* running it: `console.log("1")`, then `setTimeout(() => console.log("2"), 0)`, then
 `Promise.resolve().then(() => console.log("3"))`, then `console.log("4")`. Write your predicted

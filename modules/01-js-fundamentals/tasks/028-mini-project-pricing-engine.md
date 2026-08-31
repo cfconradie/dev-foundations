@@ -6,8 +6,12 @@ isn't a practice exercise with throwaway data; what you build here is what modul
 call, what module 01.5's tests will cover, and what module 04's backend will eventually reuse. This
 is the "can you actually build something real" checkpoint before moving into the DOM.
 
-**Step 1 — build it yourself, no AI:** building on `pricing.js`/`format.js`/`main.js` from task
-027, implement the project's real `calculateTotal(selectedRuleIds, allRules)` using the `Map`-based
+**Where this goes:** project-track — the culmination of this module's arc. Every concept-lab task
+above (001–026) fed into this one; from here on, `project/pricing.js` is real, persisted, and
+reused by every module through the rest of the course.
+
+**Step 1 — build it yourself, no AI:** building on `project/pricing.js`/`project/format.js`/
+`project/main.js` from task 027, implement the project's real `calculateTotal(selectedRuleIds, allRules)` using the `Map`-based
 lookup from task 010 (not a linear scan), a `makeDiscount(percent)` closure-based discount function
 (from task 018's closures) applied to the subtotal, and — because a real pricing calculator often
 has tiered/bundle discounts (buy 3+ addons, get an extra 10% off) — at least one piece of genuinely

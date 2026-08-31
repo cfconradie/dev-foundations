@@ -5,9 +5,12 @@ specific system, "who would want to abuse this, and how" before you've been told
 it badly (guessing generic threats that could apply to any app) is easy; doing it well requires
 actually looking at what *this* app exposes.
 
+**Where this goes:** project-track — this becomes the findings doc later 04.5 tasks (and module
+04's backend build) are checked against, not a standalone exercise.
+
 **Step 1 — build it yourself, no AI:** re-read `PROJECT.md`'s user stories and architecture
-section. Nothing is built yet (module 04 hasn't happened), so you're threat-modeling the *design*,
-not running code — that's a real skill: catching a security problem before you've written the
+section. No backend exists yet (module 04 hasn't happened), so you're threat-modeling the
+*design*, not running code — that's a real skill: catching a security problem before you've written the
 vulnerable line, not after. Write a list of at least 5 concrete threats, each in the form "an
 attacker could [specific action] by [specific mechanism], which would let them [specific harm]" —
 not "SQL injection is a risk," but e.g. "an attacker could submit a `QuoteRequest` with a script

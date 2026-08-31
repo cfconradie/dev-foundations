@@ -4,6 +4,10 @@
 going wrong on purpose instead of letting the program crash — critical once you touch APIs, user
 input, or files.
 
+**Where this goes:** concept-lab — this exact pattern (a clear custom error on bad input) is what
+task 028's async submission handling wraps its `try/catch` around, and what module 04's real
+backend routes will need for real user input.
+
 **Step 1 — build it yourself, no AI:** write a `parseJSON(text)` function that wraps
 `JSON.parse` in a `try/catch` and throws a clearer custom error message on failure; write a
 `divide(a, b)` that throws on division by zero; call both with bad input and confirm the errors

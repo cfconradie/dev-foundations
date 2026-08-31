@@ -5,6 +5,10 @@
 function you pass an object into silently changes it), and `Object.freeze` is one real tool for
 closing it — but it has a sharp edge worth knowing before you rely on it.
 
+**Where this goes:** concept-lab — but this bug class is exactly what to watch for once task 028's
+`calculateTotal` starts passing the same `PricingRule` array around; a function that accidentally
+mutates shared rule data would be a real, hard-to-trace bug in the actual project.
+
 **Step 1 — build it yourself, no AI:** take your `QuoteRequest` object from task 008. First, prove
 `const` doesn't protect it: write a function `markContacted(quote)` that mutates `quote.status`
 directly, call it, and confirm the original object changed even though it's `const`. Before

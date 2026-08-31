@@ -5,6 +5,10 @@ same problem, with a base case that stops it — it's not a different tool from 
 different way of expressing "repeat," and some real problems (walking nested data, the project's
 own tiered pricing later in module 02.5) fit recursion far more naturally than a loop ever would.
 
+**Where this goes:** concept-lab for now — task 028's tiered/bundle pricing logic is deliberately
+designed to give this a real recursive use, and module 02.5 revisits the performance angle for
+real against the project's own discount-rule data.
+
 **Step 1 — build it yourself, no AI:** rewrite task 004's Fibonacci-sequence generator
 recursively (`fib(n)` returning the nth Fibonacci number, called in a loop to print the first 20).
 Before measuring anything, predict in writing: will the recursive version be faster, slower, or

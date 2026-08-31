@@ -5,6 +5,10 @@ generic sorting-algorithm drill doesn't become part of the app just because you 
 honest move is to name that up front and track it, not pretend everything ties in or quietly let
 it become a disconnected exercise anyway.
 
+**Where this goes:** concept-lab — this task itself doesn't log a real backlog entry (nothing's
+been built yet to have detours from), but the judgment it builds is what you'll use for real
+starting in module 02.5.
+
 **Step 1 — build it yourself, no AI:** read `INTEGRATION-BACKLOG.md` in full. Then write, in your
 own words (a few sentences, doesn't need to live anywhere but this task's commit), what you think
 distinguishes a task that *should* directly build the project from one that's legitimately a

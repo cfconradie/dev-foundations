@@ -4,6 +4,10 @@
 parameters are the vocabulary of "reusable logic" — get comfortable with all the shapes before
 arrow functions add another one.
 
+**Where this goes:** concept-lab, but not arbitrary — `formatPrice` here is the direct ancestor of
+task 021's `formatCurrency` and task 027's real `format.js`, and `sum(...numbers)` is the shape
+`calculateTotal` needs in task 028.
+
 **Step 1 — build it yourself, no AI:** write a `formatPrice(amount, currency = "USD")` function
 using a function declaration, then rewrite it as a function expression assigned to a `const`, then
 write a `sum(...numbers)` using rest parameters.

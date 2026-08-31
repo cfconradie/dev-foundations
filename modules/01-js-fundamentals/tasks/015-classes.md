@@ -5,6 +5,11 @@ constructor function plus methods living on the prototype, written in a shape th
 classical OOP. Knowing that means you never have to wonder "but what is a class *actually*
 doing" — you already built the underlying mechanism by hand last task.
 
+**Where this goes:** concept-lab — same honesty as task 014: the project ends up typing
+`PricingRule`/`DiscountRule` as plain objects with a discriminated union in module 03, not
+classes. This task's payoff is that "what is a class actually doing" is no longer a mystery, not
+project code you'll reuse verbatim.
+
 **Step 1 — build it yourself, no AI:** rewrite task 014's `Object.create`-based `PricingRule` as a
 real `class PricingRule` with a constructor (`name`, `priceDelta`) and a `describe()` method.
 Then create a `class DiscountRule extends PricingRule` that adds a `percentOff` field and

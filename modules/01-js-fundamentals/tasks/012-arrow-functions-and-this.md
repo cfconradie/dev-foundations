@@ -4,6 +4,10 @@
 defined — which is exactly why they behave differently from regular functions inside objects and
 callbacks, and is one of the most common real-world JS bugs.
 
+**Where this goes:** concept-lab — the counter example here isn't project code, but the bug class
+is real: task 028's async "submit quote request" simulation uses a callback-shaped pattern where
+getting `this` wrong would cause exactly this kind of silent failure.
+
 **Step 1 — build it yourself, no AI:** build an object with a `counter` value and two methods
 that increment it after a `setTimeout`: one written as a regular function, one as an arrow
 function. Predict what `this` refers to in each *before* running, then run and compare.

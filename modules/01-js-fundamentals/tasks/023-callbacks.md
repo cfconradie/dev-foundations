@@ -4,6 +4,10 @@
 Promises existed, and understanding it (including "callback hell") is what makes you actually
 appreciate why Promises and async/await exist.
 
+**Where this goes:** concept-lab, and honestly a historical one — the project's real async code
+(task 025 onward) never uses raw callbacks. The payoff is appreciating *why* task 024/025 exist,
+not code you'll write again.
+
 **Step 1 — build it yourself, no AI:** write a `fetchUser(id, callback)` that uses `setTimeout`
 to fake a 1-second network delay, then calls `callback(user)`. Chain three of these in sequence
 (fetch user → fetch their orders → fetch order details) using nested callbacks only.

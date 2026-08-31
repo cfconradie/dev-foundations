@@ -5,6 +5,10 @@ back to when a property lookup fails on the object itself — this is *how* `thi
 lookup, and (next task) classes actually work under the hood. Skipping this means classes will
 always feel like magic instead of syntax over something you understand.
 
+**Where this goes:** concept-lab — the project's actual `PricingRule` ends up as a plain typed
+object in module 03, not a hand-rolled prototype chain. This task's payoff is understanding what
+`class` (next task) is really doing, not code the project reuses directly.
+
 **Step 1 — build it yourself, no AI:** without using `class`, build a `pricingRuleMethods` object
 with one method, `describe()`, that returns a string using `this.name` and `this.priceDelta`.
 Create two separate `PricingRule`-shaped objects using `Object.create(pricingRuleMethods)`, then

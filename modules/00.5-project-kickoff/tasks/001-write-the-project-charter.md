@@ -4,6 +4,9 @@
 they can't see — the only way to find those holes is to write the spec yourself first, then have
 someone (or something) that wasn't in your head poke at it.
 
+**Where this goes:** project-track — this directly edits `PROJECT.md`, the file every later module
+reads as the source of truth for what to build.
+
 **Step 1 — build it yourself, no AI:** `PROJECT.md` at the repo root already has a seed spec for
 the pricing/quote calculator (user stories, a rough data model, a target architecture). Read it,
 then rewrite it in your own words — don't just leave the seed text in place. For each user story,

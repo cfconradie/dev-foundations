@@ -6,6 +6,11 @@ function call defaults to the global object instead of `undefined`. Strict mode 
 loud errors instead of silent footguns. It's also worth knowing *why* you rarely have to think
 about this day-to-day: ES modules and classes are strict by default.
 
+**Where this goes:** concept-lab, and honestly a mostly-background one — since `project/` is built
+as ES modules from task 027 onward, you get strict mode automatically and this specific bug class
+mostly won't recur there. The real payoff is knowing *why* you don't have to think about it, not a
+project task that revisits it.
+
 **Step 1 — build it yourself, no AI:** in a plain (non-module) `.js` script with no `"use strict"`,
 write a function that assigns to a variable you never declared with `let`/`const`/`var` (e.g.
 `total = 0` instead of `let total = 0`) inside a function, then log it from outside that function

@@ -3,6 +3,10 @@
 **Concept:** objects are key-value collections with (usually) meaningful, non-sequential keys —
 the shape you'll model almost everything in your app with, including the project's real data.
 
+**Where this goes:** concept-lab — this `QuoteRequest` is a scratch script, not persisted project
+code yet. It's the real shape from `PROJECT.md` though, and task 027 is where a data model exactly
+like this becomes a real file the rest of the app imports.
+
 **Step 1 — build it yourself, no AI:** using `PROJECT.md`'s data model, build a real
 `QuoteRequest` object literal (name, email, an array of selected rule ids, a computed total, a
 status, a timestamp) with the status nested one level deeper as `{ value: "new", updatedAt: null }`

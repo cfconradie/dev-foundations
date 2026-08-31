@@ -50,6 +50,13 @@ modules updates this section and logs the change below.
 - **No framework** for the vanilla build (module 05). Rebuilt in Vue (06) and React (07) once
   the vanilla version ships, so each framework is learned by solving the same real problem again.
 
+## Where the code lives
+
+The app's real, persisted code lives in `project/` at the repo root (created in module 01, task
+027) — separate from `modules/`, which holds the task specs. Not every task writes to `project/`;
+plenty are concept-lab exercises that build understanding without producing code the app keeps.
+Each task file says which kind it is in its "Where this goes" line, right after the Concept.
+
 ## Status
 
 Nothing is built yet — this file exists so every module from 00.5 onward has a real spec to build

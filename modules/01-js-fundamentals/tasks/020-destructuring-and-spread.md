@@ -5,6 +5,10 @@ lookup, and spread/rest expand or collect values — together they're the syntax
 almost every modern JS/React/Vue codebase for passing data around, including the project's own
 code from here on.
 
+**Where this goes:** concept-lab — but the status-update spread pattern here is the exact one
+module 04's real `PATCH /api/quote-requests/:id` endpoint will need to update a quote's status
+without mutating the original.
+
 **Step 1 — build it yourself, no AI:** using your `QuoteRequest` object from task 008, destructure
 `name` and `status.value` directly in one statement, renaming `name` to `visitorName` and giving
 `status.value` a default of `"new"` in case it's missing; given the array of selected rule ids,

@@ -4,6 +4,11 @@
 — cleaner than string concatenation — and the common string methods (`slice`, `trim`, `split`,
 `replace`, `includes`) are used constantly for formatting and parsing text.
 
+**Where this goes:** mostly concept-lab — the email template itself isn't in the project's actual
+scope (no email sending is planned in `PROJECT.md`), so be honest that it's a realistic but
+unused artifact. The currency-formatting logic is the real payoff: it's what task 027's
+`formatCurrency` in `format.js` actually becomes.
+
 **Step 1 — build it yourself, no AI:** build a multi-line "quote request received" email template
 using a template literal, interpolating the visitor's name, their computed total (formatted as
 currency, e.g. `$1,250`), and a list of their selected option names joined into one readable line.

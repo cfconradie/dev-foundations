@@ -1,10 +1,14 @@
 # Task 025 — Async/await
 
 **Concept:** `async/await` is syntax sugar over Promises that lets async code read like
-synchronous code — same underlying mechanism as task 017, easier to follow, and what you'll use
+synchronous code — same underlying mechanism as task 024, easier to follow, and what you'll use
 almost everywhere afterward.
 
-**Step 1 — build it yourself, no AI:** rewrite task 017's `.then()` chain as an `async function`
+**Where this goes:** concept-lab — this is the exact syntax task 028's real "submit quote request"
+simulation uses, and what module 04's real backend routes are written in throughout the rest of
+the course.
+
+**Step 1 — build it yourself, no AI:** rewrite task 024's `.then()` chain as an `async function`
 using `await`, with a `try/catch` for error handling instead of `.catch()`. Then rewrite the
 `Promise.all` concurrent fetch using `await Promise.all([...])`.
 

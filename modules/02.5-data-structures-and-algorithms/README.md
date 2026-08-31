@@ -12,6 +12,6 @@ breadth a single app can't teach, tracked in `INTEGRATION-BACKLOG.md`.
 you've applied at least one technique from this module back into the real project.
 
 **Authoring status (pilot):** only task 003 exists right now — this module is a redesign pilot.
-The full ~12-task sequence is in the course redesign plan but not yet written. Task 003 below is
-self-contained: it builds the small discount-rule dataset it needs, since module 04 hasn't been
-retrofitted to build the project's real backend yet.
+The full ~12-task sequence is in the course redesign plan but not yet written. Module 01 is fully
+authored, so task 003 measures the real `Map`-based `findRuleById` in `project/pricing.js` against
+a synthetic stress-test, rather than building disconnected throwaway code.

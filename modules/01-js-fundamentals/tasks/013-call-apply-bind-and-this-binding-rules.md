@@ -7,6 +7,10 @@ there are exactly four ways to decide it — default, implicit (called as `obj.m
 (`call`/`apply`/`bind`), and `new`. Knowing the rule means you can predict `this` for code you've
 never seen instead of memorizing individual gotchas.
 
+**Where this goes:** concept-lab, but the fourth binding rule (`new`) is the direct setup for
+tasks 014–015 — prototypes and classes are literally built on that rule, so this is required
+groundwork, not a detour.
+
 **Step 1 — build it yourself, no AI:** write one plain function `describe()` that logs `this.name`.
 Before running anything, predict what `this` will be in each of these four calls, then run them
 and check: (1) calling `describe()` on its own; (2) calling it as `someObject.describe = describe;

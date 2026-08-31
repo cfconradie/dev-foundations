@@ -5,6 +5,10 @@ don't know in advance) or you need guaranteed insertion order and any-type keys,
 right tool — and `Set` is the equivalent for "a collection with no duplicates," which a plain
 array can't guarantee without extra work.
 
+**Where this goes:** concept-lab, but the specific pattern here — not a generic one — is exactly
+what tasks 027/028 build into `pricing.js` for real, and module 02.5 measures its actual
+performance benefit against the project's real rule data.
+
 **Step 1 — build it yourself, no AI:** you have an array of 5 `PricingRule` objects (see
 `PROJECT.md`). Build a `Map` keyed by each rule's `id` so you can look one up directly instead of
 scanning the array (module 02.5 comes back to *why* this matters for performance — for now, just

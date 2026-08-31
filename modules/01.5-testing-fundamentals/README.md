@@ -13,6 +13,6 @@ suite for the project's pricing logic.
 
 **Authoring status (pilot):** only task 003 exists right now — this module is a redesign pilot.
 The full 6-task sequence (why test, Vitest setup, AAA pattern, edge cases, mocking, mini-project)
-is in the course redesign plan but not yet written. If you're doing this as the pilot, task 003
-below is written to be self-contained: it builds the small pricing function it tests, since module
-01 hasn't been retrofitted to include it yet.
+is in the course redesign plan but not yet written. Module 01 is now fully authored, so task 003
+tests the real `project/pricing.js` (built in module 01, task 028) rather than a throwaway
+function — do module 01 first if you haven't.

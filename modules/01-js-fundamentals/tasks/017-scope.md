@@ -4,6 +4,10 @@
 `let`/`const` block-scoping vs `var`'s function-scoping — is the mental model that makes closures
 (next task) make sense instead of feeling like magic.
 
+**Where this goes:** concept-lab — required groundwork for task 018, which is where scope stops
+being an isolated topic and becomes the mechanism behind the project's real `makeDiscount` closure
+in task 028.
+
 **Step 1 — build it yourself, no AI:** write a small script that deliberately demonstrates: a
 variable shadowed inside a block, a `var` "leaking" out of an `if` block where a `let` wouldn't,
 and a function accessing a variable from its enclosing scope.

@@ -20,7 +20,7 @@ muscle when it actually matters.
 
 ## Why this exists
 
-- A task branch means you can look back at exactly what one 15-minute session produced, which is
+- A task branch means you can look back at exactly what one task's session produced, which is
   useful when a later module asks you to revisit something.
 - A real commit message is a forcing function: if you can't describe what you did in one line,
   you probably don't understand it as well as you think.

@@ -4,6 +4,10 @@
 even after that outer function has returned — this is what makes counters, private state, and a
 huge amount of real JS patterns (including React hooks later) work.
 
+**Where this goes:** concept-lab, but this is the direct rehearsal for task 028's real
+`makeDiscount(percent)` — same closure shape, same private-state reasoning, applied to the
+project's actual pricing logic instead of a counter.
+
 **Step 1 — build it yourself, no AI:** write a `makeCounter()` function that returns an object
 with `increment`, `decrement`, and `getValue` methods, all sharing one private `count` variable
 that can't be accessed directly from outside.

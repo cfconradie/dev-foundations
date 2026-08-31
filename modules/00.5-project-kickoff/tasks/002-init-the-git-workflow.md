@@ -5,6 +5,9 @@ just did as clearly as you think — branching per task also means you can look 
 what one session produced, which matters later when a review-checkpoint task asks you to revisit
 something.
 
+**Where this goes:** project-track — this is you establishing the workflow every task from here
+on actually uses, not a one-off exercise.
+
 **Step 1 — build it yourself, no AI:** read `modules/_workflow/git-workflow.md` in full first —
 this task is you actually using it, not reading about it. Create a task branch for *this* task
 (`task/00.5-002-init-the-git-workflow`), make at least one real commit on it as you do the rest of
